@@ -49,6 +49,13 @@ p {
     height: 40rem;
 }
 
+@media (max-width: 768px) {
+    #titolo {
+        background-position: 50% 50%;
+        height: 34rem;
+    }
+}
+
 #titolo h5 {
     margin-bottom: 0px !important;
     /* position: relative;
@@ -57,6 +64,12 @@ p {
     color: #495F6D;
     font-size: 1.5rem;
     margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    #titolo h5 {
+        font-size: 1.2rem;
+    }
 }
 
 h1 {
@@ -80,14 +93,14 @@ h1 span {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 2.4rem !important;
+        font-size: 3.4rem !important;
+        padding-top: 6rem !important;
     }
-
 }
 
 @media (max-width: 768px) {
     h1 span {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
     }
 }
 
@@ -96,6 +109,12 @@ h1 span {
     /* height: 30rem; */
     padding-bottom: 5rem;
     padding-top: 10rem;
+}
+
+@media (max-width: 768px) {
+    #uno {
+        padding-top: 6rem;
+    }
 }
 
 #uno h2 {
@@ -137,6 +156,12 @@ h1 span {
     /* height: 40rem; */
     padding-bottom: 5rem;
     padding-top: 10rem;
+}
+
+@media (max-width: 768px) {
+    #due {
+        padding-top: 6rem;
+    }
 }
 
 #due h2 {
