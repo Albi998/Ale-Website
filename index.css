@@ -349,3 +349,48 @@ textarea {
     background-color: #c4e2c9;
     transform: scale(1.02);
 }
+
+
+/* ANIMAZIONI */
+
+@keyframes appear {
+    from {
+        /* opacity: 0%; */
+        /* scale: 0.7; */
+        /* transform: rotate(720deg); */
+        transform: translateY(10rem);
+    }
+
+    to {
+        /* opacity: 100%; */
+        /* scale: 1; */
+        /* transform: rotate(0); */
+        transform: translateY(0px);
+    }
+}
+
+.animazione {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+
+@keyframes appeardue {
+    from {
+        opacity: 0%;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0px);
+    }
+}
+
+
+.animazionedue {
+    animation: appeardue linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 45%;
+}
