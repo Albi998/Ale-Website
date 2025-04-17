@@ -291,6 +291,15 @@ h1 span {
     margin-bottom: 1.5rem !important;
 }
 
+#madeby a {
+    color: #4A606F;
+}
+
+#madeby a:hover {
+    color: #F3BCBD !important;
+    transition: 0.2s;
+}
+
 /* FORM */
 
 /* #nome {
