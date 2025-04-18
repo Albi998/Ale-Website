@@ -406,4 +406,6 @@ textarea {
     animation: appeardue linear;
     animation-timeline: view();
     animation-range: entry 0 cover 45%;
+
 }
+
