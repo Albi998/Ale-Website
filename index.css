@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 #body {
     font-family: "Poppins", sans-serif;
 }
-
-/* header {
-    position: fixed;
-    width: 100%;
-    background-color: white;
-    z-index: 10;
-} */
 
 p {
     margin-bottom: 0px !important;
@@ -54,7 +46,6 @@ p {
     background-repeat: no-repeat;
     background-size: auto 100%;
     height: 40rem;
-    /* padding-top: 3rem; */
 }
 
 @media (max-width: 768px) {
@@ -227,6 +218,7 @@ h1 span {
     padding-top: 6rem;
 }
 
+
 .bottonedue {
     background-color: #1cc7c2 !important;
     color: white !important;
@@ -307,6 +299,8 @@ h1 span {
     color: #F3BCBD !important;
     transition: 0.2s;
 }
+
+
 
 /* FORM */
 
