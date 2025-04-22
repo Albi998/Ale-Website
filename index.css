@@ -2,6 +2,7 @@
 
 #body {
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 p {
@@ -423,8 +424,65 @@ input:-webkit-autofill {
 input:focus,
 textarea:focus,
 select:focus {
-  outline: none;
-  /* border-color: var(--accent); */
-  box-shadow: 0 0 0 3px rgba(255, 111, 97, 0.2); /* glow soft */
-  transition: all 0.2s ease;
+    outline: none;
+    /* border-color: var(--accent); */
+    box-shadow: 0 0 0 3px rgba(255, 111, 97, 0.2);
+    /* glow soft */
+    transition: all 0.2s ease;
+}
+
+
+/* ----- RESPONSIVE ----- */
+
+@media only screen and (max-width: 600px) {
+    #titolo {
+        background-image: url('img/cover-mobile.webp') !important;
+        background-size: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    #titolo {
+        /* background-image: url('img/cover-mobile.webp') !important; */
+        width: 100%;
+        /* background-size: 100%; */
+    }
+
+    #titolo h2 {
+        margin-bottom: 2rem !important;
+        line-height: 2rem;
+        color: #495F6D;
+        font-size: 1.2rem;
+        margin-top: 3rem;
+    }
+
+    #uno h3 {
+        font-size: 3rem !important;
+    }
+
+    #due h3 {
+        font-size: 3rem !important;
+    }
+
+    #recensioni h3 {
+        font-size: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    #ale {
+        position: static;
+        width: 50%;
+        margin-top: 4rem !important;
+
+    }
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .carta {
+        height: 24rem;
+    }
+
 }
