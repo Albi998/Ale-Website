@@ -132,12 +132,12 @@ h1 span {
     top: 68rem;
     /* border: solid 1px #707EA1; */
     transition: 0.4s;
+
 }
 
 #ale:hover {
-    /* scale: 1.1; */
     transform: scale(1.05);
-    /* transition: 0.3s; */
+
 }
 
 @media (max-width: 768px) {
@@ -146,9 +146,6 @@ h1 span {
         width: 100%;
         border-radius: 1.4em;
         margin-top: 5rem;
-        /* margin-top: 2rem; */
-        /* top: 64rem; */
-        /* border: solid 1px #707EA1; */
     }
 }
 
@@ -180,6 +177,7 @@ h1 span {
     border-radius: 1.4em;
     /* border: solid 1px #707EA1; */
     transition: 0.4s;
+    /* box-shadow: -8px 8px 0px 0px #4a606fb3; */
 }
 
 .carta:hover {
@@ -436,7 +434,7 @@ select:focus {
 
 @media only screen and (max-width: 600px) {
     #titolo {
-        background-image: url('img/cover-mobile.webp') !important;
+        background-image: url('img/new-mobile-cover.webp') !important;
         background-size: 100%;
     }
 }
@@ -467,6 +465,10 @@ select:focus {
 
     #recensioni h3 {
         font-size: 3rem !important;
+    }
+
+    #ale {
+        width: 80%;
     }
 }
 
