@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alessandrascarsi.com/sitemap.xml
+Sitemap: https://www.alessandrascarsi.com/sitemap.xml
