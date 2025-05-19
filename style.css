@@ -286,9 +286,9 @@ h1 span {
 
 @media (max-width: 768px) {
   #uno {
-    padding-top: 6rem;
-    height: 120rem;
+    height: 110rem;
   }
+
 }
 
 #uno h3 {
@@ -298,7 +298,6 @@ h1 span {
 }
 
 .card-hover-box {
-  margin-top: 3rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -371,7 +370,7 @@ h1 span {
 
 @media (max-width: 768px) {
   #due {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
 }
 
@@ -430,8 +429,8 @@ h1 span {
 }
 
 #recensioni h3 {
-  font-size: 4rem !important;
-  font-weight: 700 !important;
+  font-size: 4rem;
+  font-weight: 700;
   color: #7cc9c0;
   padding-top: 4rem;
 }
@@ -622,19 +621,25 @@ select:focus {
   }
 
   #uno h3 {
-    font-size: 3rem !important;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
   }
 
   #due h3 {
-    font-size: 3rem !important;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
   }
 
   #recensioni h3 {
-    font-size: 3rem !important;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
   }
 
   #ale {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -725,4 +730,15 @@ select:focus {
     transform: translateY(0) !important;
     overflow: visible;
   }
+  #contatti {
+    text-align: center;
+  }
+  #contatti label {
+    display: flex;
+    justify-content: left;
+  }
+  .contattami {
+    margin-top: 2rem;
+  }
+  
 }
