@@ -11,7 +11,7 @@ export default function HomeSection() {
             <div className="brow-script">Your</div>
             <div className="brow-title">BEAUTY SALON</div>
           </div>
-          <a className="btn brow-cta" href={site.hero.ctaPrimary.href}>
+          <a className="btn brow-cta" href={site.hero.ctaPrimary.href} target="_blank">
             {site.hero.ctaPrimary.label || "Book appointment"}
           </a>
         </div>

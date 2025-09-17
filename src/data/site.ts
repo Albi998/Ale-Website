@@ -6,13 +6,12 @@ export const site = {
     email: "info@lunabeauty.it",
     address: "Via Roma 12, Milano",
     socials: {
-      instagram: "https://instagram.com/lunabeauty",
-      whatsapp: "https://wa.me/393471234567",
+      instagram: "https://instagram.com/aswd.it",
+      whatsapp: "https://wa.me/393311138188",
     },
   },
   nav: [
     { label: "Home", href: "#home" },
-
     { label: "Servizi", href: "#services" },
     { label: "Chi siamo", href: "#about" },
     { label: "Contatti", href: "#contact" },
@@ -22,7 +21,7 @@ export const site = {
     subtitle: "Trattamenti professionali per capelli e pelle.",
     ctaPrimary: {
       label: "Prenota su WhatsApp",
-      href: "https://wa.me/393471234567",
+      href: "https://wa.me/393311138188",
     },
     ctaSecondary: { label: "Scopri i servizi", href: "#services" },
   },

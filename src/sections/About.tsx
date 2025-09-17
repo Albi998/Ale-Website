@@ -9,7 +9,7 @@ export default function AboutSection() {
         <div className="brow-about-hero-overlay" />
         <div className="brow-about-hero-content container">
           <p className="brow-about-script">{site.about.hero.kicker}</p>
-          <a href={site.about.hero.cta.href} className="btn brow-cta">
+          <a href={site.hero.ctaPrimary.href} className="btn brow-cta" target="_blank">
             {site.about.hero.cta.label}
           </a>
         </div>
@@ -21,7 +21,7 @@ export default function AboutSection() {
           <h3 className="brow-handwrite">{site.about.title}</h3>
           <p className="brow-copy">{site.about.p1}</p>
           <p className="brow-copy">{site.about.p2}</p>
-          <a href={site.about.cta.href} className="btn brow-btn">
+          <a href={site.hero.ctaPrimary.href} className="btn brow-btn" target="_blank">
             {site.about.cta.label}
           </a>
         </div>
