@@ -99,7 +99,7 @@ export const site = {
     ],
   },
   footer: {
-    instagramHandle: "@browstudio",
+    instagramHandle: "@your-beauty-salon",
     menu: [
       { label: "Home", href: "#home" },
       { label: "Chi siamo", href: "#about" },
