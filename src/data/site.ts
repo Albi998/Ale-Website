@@ -4,7 +4,7 @@ export const site = {
   brand: {
     name: "Alessandra Scarsi",
     href: "#home",
-    logo: "/img/logoa.png",
+    logo: "/img/logoa.webp",
     address: "Via Esempio 1, Città",
     phone: "+39 333 0000000",
     email: "info@studio.it",
@@ -20,7 +20,7 @@ export const site = {
     { href: "#contact", label: "Contatti" },
   ],
   hero: {
-    image: "/img/al.jpeg",
+    image: "/img/al.webp",
     imageAlt: "Psicologa nello studio",
     title: "Alessandra Scarsi Psicologa",
     subtitle:
@@ -91,7 +91,7 @@ export const site = {
     p1: "Sono Alessandra Scarsi, psicologa iscritta alla scuola di specializzazione in psicoterapia ad orientamento sistemico relazionale, Centro Padovano di Terapia della Famiglia. Svolgo l'attività libero professionale in presenza a Pordenone e online, con percorsi di consulenza e di supporto psicologico per giovani, adulti, coppie e famiglie.",
     p2: "Ho conseguito la Laurea in Psicologia di Comunità della Promozione del Benessere e del Cambiamento Sociale presso Università degli studi di Padova e mi sto specializzando in psicoterapia sistemico-relazionale presso Centro Padovano di Terapia della Famiglia. ",
     p3: "Ho maturato, in ambito accademico e lavorativo, esperienza lavorando presso il Dipartimento per le Dipendenze dove ho imparato a lavorare con le difficoltà delle persone che vivono una condizione di dipendenza da alcol, sostanze o comportamentali, e presso il Consultorio Familiare, fornendo supporto psicologico a genitori e coppie nel sostegno alla genitorialità. Successivamente, ho iniziato a lavorare in Cooperativa svolgendo incarichi socio-educativi presso Dipartimento delle Dipendenze e della Salute Mentale.",
-    images: ["/img/al.jpeg", "/img/studioale.jpeg"],
+    images: ["/img/al.webp", "/img/studioale.webp"],
     cta: { href: "#reviews", label: "Leggi le recensioni" },
   },
   contact: {
