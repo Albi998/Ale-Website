@@ -9,7 +9,8 @@ export default function Header() {
   useEffect(() => {
     const onDocClick = (e: MouseEvent) => {
       if (!open) return;
-      if (shellRef.current && !shellRef.current.contains(e.target as Node)) setOpen(false);
+      if (shellRef.current && !shellRef.current.contains(e.target as Node))
+        setOpen(false);
     };
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
     document.addEventListener("click", onDocClick);
@@ -25,17 +26,31 @@ export default function Header() {
   return (
     <header className="psy-header" aria-label="Primary">
       <div ref={shellRef} className={`psy-nav-shell ${open ? "open" : ""}`}>
-        <a className="psy-logo" href={site.brand.href || "#"} onClick={closeMenu}>
-          <img src={site.brand.logo || "/img/logo.webp"} alt={site.brand.name} />
+        <a
+          className="psy-logo"
+          href={site.brand.href || "#"}
+          onClick={closeMenu}
+        >
+          <img
+            src={site.brand.logo || "/img/logo.webp"}
+            alt={site.brand.name}
+          />
         </a>
 
         {/* Desktop */}
         <nav className="psy-nav desktop">
           {site.nav.map((n) => (
-            <a key={n.href} href={n.href} className="link">{n.label}</a>
+            <a key={n.href} href={n.href} className="link">
+              {n.label}
+            </a>
           ))}
         </nav>
-        <a className="btn psy-cta desktop" href={site.hero.ctaPrimary.href} target="_blank" rel="noreferrer">
+        <a
+          className="btn psy-cta desktop"
+          href={site.hero.ctaPrimary.href}
+          target="_blank"
+          rel="noreferrer"
+        >
           {site.hero.ctaPrimary.label}
         </a>
 

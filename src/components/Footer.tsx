@@ -87,11 +87,14 @@ function mapSrcFromSite(): string {
   const m = f.map;
   if (m?.lat && m?.lng) {
     const z = m.zoom ?? 16;
-    // satellite + UI standard
-    return `https://www.google.com/maps?ll=${m.lat},${m.lng}&z=${z}&t=k&hl=it&output=embed`;
+    const label = m.label ? ` (${encodeURIComponent(m.label)})` : "";
+    // pin + satellite
+    return `https://www.google.com/maps?q=${m.lat},${m.lng}${label}&z=${z}&t=k&hl=it&output=embed`;
+    // variante: https://www.google.com/maps/search/?api=1&query=lat,lng&basemap=satellite
   }
   return f.mapEmbed || site.contact?.mapEmbed || "";
 }
+
 
 /* === Footer === */
 export default function Footer() {
@@ -114,8 +117,8 @@ export default function Footer() {
                 <li key={i} className="contact-item">
                   <span className="ico"><Icon name={c.icon} /></span>
                   {c.href ? (
-                    <a href={c.href} target={target} rel="noreferrer">{c.label}</a>
-                  ) : (
+                    <a href={c.href} target="_blank" rel="noreferrer" className="link fit">{c.label}</a>
+                  ) : ( 
                     <span>{c.label}</span>
                   )}
                 </li>

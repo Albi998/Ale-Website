@@ -2,7 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export const site = {
   brand: {
-    name: "Dr. Jane Doe",
+    name: "Alessandra Scarsi",
     href: "#home",
     logo: "/img/logoa.png",
     address: "Via Esempio 1, Città",
@@ -24,9 +24,9 @@ export const site = {
     imageAlt: "Psicologa nello studio",
     title: "Alessandra Scarsi Psicologa",
     subtitle:
-      "Psicologa ad orientamento sistemico relazionale",
+      "La terapia è un cammino fatto di piccoli passi: un processo di cura che permette di ascoltarsi, conoscersi e costruire un nuovo equilibrio",
     ctaPrimary: {
-      href: "https://www.guidapsicologi.it/studio/dottssa-alessandra-scarsi",
+      href: "https://wa.me/+393791393290",
       label: "Prenota una consulenza",
     },
   },
@@ -91,7 +91,7 @@ export const site = {
     p1: "Sono Alessandra Scarsi, psicologa iscritta alla scuola di specializzazione in psicoterapia ad orientamento sistemico relazionale, Centro Padovano di Terapia della Famiglia. Svolgo l'attività libero professionale in presenza a Pordenone e online, con percorsi di consulenza e di supporto psicologico per giovani, adulti, coppie e famiglie.",
     p2: "Ho conseguito la Laurea in Psicologia di Comunità della Promozione del Benessere e del Cambiamento Sociale presso Università degli studi di Padova e mi sto specializzando in psicoterapia sistemico-relazionale presso Centro Padovano di Terapia della Famiglia. ",
     p3: "Ho maturato, in ambito accademico e lavorativo, esperienza lavorando presso il Dipartimento per le Dipendenze dove ho imparato a lavorare con le difficoltà delle persone che vivono una condizione di dipendenza da alcol, sostanze o comportamentali, e presso il Consultorio Familiare, fornendo supporto psicologico a genitori e coppie nel sostegno alla genitorialità. Successivamente, ho iniziato a lavorare in Cooperativa svolgendo incarichi socio-educativi presso Dipartimento delle Dipendenze e della Salute Mentale.",
-    images: ["/img/al.jpeg", "/img/studio.jpg"],
+    images: ["/img/al.jpeg", "/img/studioale.jpeg"],
     cta: { href: "#reviews", label: "Leggi le recensioni" },
   },
   contact: {
@@ -104,12 +104,12 @@ export const site = {
     
     contacts: [
       { icon: "map",     label: "Via Fratelli Bandiera, 40 — Pordenone (PN)", href: "https://maps.google.com/?q=Via+Fratelli+Bandiera+40+Pordenone" },
-      { icon: "website", label: "Profilo Guida Psicologi", href: "https://www.guidapsicologi.it/..." },
+      { icon: "website", label: "Profilo Guida Psicologi", href: "https://www.guidapsicologi.it/studio/dottssa-alessandra-scarsi" },
       { icon: "mail",    label: "alessandra.scarsi.psi@gmail.com", href: "mailto:alessandra.scarsi.psi@gmail.com" },
-      { icon: "phone",   label: "+39 379 139 3290", href: "tel:+393791393290" },
-      { icon: "linkedin",label: "Profilo LinkedIn", href: "https://www.linkedin.com/in/..." },
+      { icon: "phone",   label: "+39 379 139 3290", href: "https://wa.me/+393791393290" },
+      { icon: "linkedin",label: "Profilo LinkedIn", href: "https://www.linkedin.com/in/alessandra-scarsi-1b527624b/" },
       { icon: "vat",     label: "Partita IVA: 01969750932" },
-      { icon: "order",   label: "Iscrizione Ordine Psicologi FVG", href: "https://www.ordinepsicologifvg.it/..." }
+      { icon: "order",   label: "Iscrizione Ordine Psicologi FVG", href: "https://www.ordinepsicologifvg.it/component/psicologi/?view=psicologo&id=5604&p=" }
     ]
   }
 };
