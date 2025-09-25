@@ -2,6 +2,7 @@ import { site } from "../data/site";
 import { motion } from "framer-motion";
 import { revealContainer, revealItem, revealFromRight } from "../anim/reveal";
 
+
 export default function ServicesSection() {
   return (
     <section id="services" className="psy-services section">

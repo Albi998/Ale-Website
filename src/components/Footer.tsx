@@ -112,7 +112,7 @@ export default function Footer() {
           </div>
           <ul className="contact-list text-small">
             {contacts.map((c, i) => {
-              const target = c.href && c.href.startsWith("http") ? "_blank" : undefined;
+              // const target = c.href && c.href.startsWith("http") ? "_blank" : undefined;
               return (
                 <li key={i} className="contact-item">
                   <span className="ico"><Icon name={c.icon} /></span>

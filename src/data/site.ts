@@ -1,4 +1,4 @@
-import { FaLinkedin } from "react-icons/fa";
+
 
 export const site = {
   brand: {
