@@ -39,12 +39,14 @@ export default function AboutSection() {
               src={site.about.images[0]}
               alt={site.about.imagesAlt?.[0] ?? ""}
               className="img"
+              loading="lazy"
             />
             
             <img
               src={site.about.images[1]}
               alt={site.about.imagesAlt?.[1] ?? ""}
               className="img bottom"
+              loading="lazy"
             />
             
           </div>

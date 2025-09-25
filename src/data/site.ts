@@ -92,6 +92,7 @@ export const site = {
     p2: "Ho conseguito la Laurea in Psicologia di Comunità della Promozione del Benessere e del Cambiamento Sociale presso Università degli studi di Padova e mi sto specializzando in psicoterapia sistemico-relazionale presso Centro Padovano di Terapia della Famiglia. ",
     p3: "Ho maturato, in ambito accademico e lavorativo, esperienza lavorando presso il Dipartimento per le Dipendenze dove ho imparato a lavorare con le difficoltà delle persone che vivono una condizione di dipendenza da alcol, sostanze o comportamentali, e presso il Consultorio Familiare, fornendo supporto psicologico a genitori e coppie nel sostegno alla genitorialità. Successivamente, ho iniziato a lavorare in Cooperativa svolgendo incarichi socio-educativi presso Dipartimento delle Dipendenze e della Salute Mentale.",
     images: ["/img/al.webp", "/img/studioale.webp"],
+    imagesAlt: "Psicologa Alessandra Scarsi e Il Suo Studio",
     cta: { href: "#reviews", label: "Leggi le recensioni" },
   },
   contact: {
