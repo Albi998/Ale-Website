@@ -186,11 +186,19 @@ a.link:hover::before,
   background: transparent;
   color: var(--primary);
   cursor: pointer;
+  transition: 0.3s ease;
 }
 .btn.primary {
   background: var(--primary);
   color: #fff;
   border-radius: 999px;
+  border: 1px solid var(--primary);
+}
+.btn.primary:hover {
+  background: none;
+  color: var(--primary);
+  border-radius: 999px;
+  border: 1px solid var(--primary);
 }
 .img {
   width: 100%;
@@ -332,6 +340,7 @@ a.link:hover::before,
   border: 1px solid currentColor;
   margin-bottom: 10px;
   background: transparent;
+  margin-bottom: 5rem;
 }
 .psy-card.solid {
   background: var(--psy-green);

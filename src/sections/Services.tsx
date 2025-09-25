@@ -21,7 +21,7 @@ export default function ServicesSection() {
             >
               {s.tag ? <span className="psy-pill">{s.tag}</span> : null}
 
-              <h3>{s.title}</h3>
+              {/* <h3>{s.title}</h3> */}
               <p>{s.excerpt}</p>
             </article>
           ))}

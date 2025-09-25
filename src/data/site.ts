@@ -20,11 +20,11 @@ export const site = {
     { href: "#contact", label: "Contatti" },
   ],
   hero: {
-    image: "/img/hero.webp",
+    image: "/img/al.jpeg",
     imageAlt: "Psicologa nello studio",
-    title: "Il percorso verso l’equilibrio inizia qui",
+    title: "Alessandra Scarsi Psicologa",
     subtitle:
-      "Supporto psicologico basato su evidenze per ansia, stress e relazioni.",
+      "Psicologa ad orientamento sistemico relazionale",
     ctaPrimary: {
       href: "https://www.guidapsicologi.it/studio/dottssa-alessandra-scarsi",
       label: "Prenota una consulenza",
@@ -45,7 +45,7 @@ export const site = {
       },
       {
         id: "anxiety",
-        tag: "Ansia",
+        tag: "Disturbi d'ansia",
         title: "Ansia persistente?",
         excerpt:
           "Aiuto le persone a riconoscere e gestire i sintomi dell’ansia, lavorando sulle cause profonde e sulle strategie per affrontarla nella vita quotidiana. Creo uno spazio sicuro dove poter esplorare le proprie paure senza giudizio e costruire nuove risorse interiori.",
@@ -53,7 +53,7 @@ export const site = {
       },
       {
         id: "rel",
-        tag: "Relazioni",
+        tag: "Terapia di coppia",
         title: "Conflitti di coppia?",
         excerpt:
           "Accompagno le coppie in difficoltà a migliorare la comunicazione, affrontare conflitti e ritrovare un’intesa più profonda. Attraverso un ascolto attento e neutrale, aiuto a costruire nuove modalità di relazione più sane e consapevoli.",
@@ -61,7 +61,7 @@ export const site = {
       },
       {
         id: "depr",
-        tag: "Umore",
+        tag: "Gestione delle emozioni",
         title: "Umore basso?",
         excerpt:
           "Supporto chi vive momenti di tristezza profonda, apatia o sbalzi d’umore, offrendo strumenti per comprendere e regolare le emozioni. Insieme esploriamo vissuti, relazioni e pensieri, alla ricerca di un nuovo equilibrio emotivo.",
@@ -69,7 +69,7 @@ export const site = {
       },
       {
         id: "self",
-        tag: "Traumi",
+        tag: "Trauma",
         title: "Traumi da elaborare?",
         excerpt:
           "Lavoro con persone che hanno vissuto eventi traumatici o esperienze di vita complesse, creando uno spazio protetto in cui elaborare il dolore e trasformarlo in forza. Ogni percorso è pensato per rispettare i tempi e i bisogni individuali.",
@@ -77,7 +77,7 @@ export const site = {
       },
       {
         id: "sleep",
-        tag: "Famiglia",
+        tag: "Terapia familiare",
         title: "Problemi in famiglia?",
         excerpt:
           "Offro uno spazio di dialogo per le famiglie che vivono tensioni o disagi relazionali. Attraverso il confronto guidato, sostengo ogni membro nel comprendere meglio le dinamiche familiari e trovare nuovi equilibri di benessere.",
