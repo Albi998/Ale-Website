@@ -2,33 +2,27 @@ import { site } from "../data/site";
 
 export default function HomeSection() {
   return (
-    <section id="home" className="brow-hero">
-
-      <div className="brow-hero-grid container">
-        {/* Left dark brand block */}
-        <div className="brow-left">
-          <div className="brow-brand">
-            <div className="brow-script">Your</div>
-            <div className="brow-title">BEAUTY SALON</div>
-          </div>
-          <a className="btn brow-cta" href={site.hero.ctaPrimary.href} target="_blank">
-            {site.hero.ctaPrimary.label || "Book appointment"}
-          </a>
+    <section id="home" className="psy-hero">
+      <div className="psy-hero-fw">
+        <div className="psy-hero-img">
+          <img src={site.hero.image} alt={site.hero.imageAlt || ""} />
         </div>
 
-        {/* Right model image */}
-        <div className="brow-right">
-          <img
-            src="/img/hair.jpg"
-            alt="Brow studio model"
-            className="img"
-          />
+        <div className="psy-hero-side">
+          <div className="psy-hero-copy">
+            <h1>{site.hero.title}</h1>
+            <p className="lead">{site.hero.subtitle}</p>
+            <a
+              className="btn primary"
+              href={site.hero.ctaPrimary.href}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {site.hero.ctaPrimary.label}
+            </a>
+          </div>
         </div>
       </div>
-
-      {/* Decorative dots */}
-      <div className="dots dots-hero-a" aria-hidden="true" />
-      {/* <div className="dots dots-hero-b" aria-hidden="true" /> */}
     </section>
   );
 }

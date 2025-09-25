@@ -1,38 +1,53 @@
 import { site } from "../data/site";
 
 export default function AboutSection() {
+  const rightCTA = site.about?.ctaSecondary ?? {
+    href: site.hero.ctaPrimary.href,
+    label: "Prenota un incontro",
+  };
+  const leftCTA = site.about?.cta ?? {
+    href: "#reviews",
+    label: "Leggi le recensioni",
+  };
+
   return (
-    <section id="about" className="brow-about">
-      {/* Mini-hero con overlay e CTA */}
-      <div className="brow-about-hero">
-        <img src={site.about.hero.image} alt="" className="img" />
-        <div className="brow-about-hero-overlay" />
-        <div className="brow-about-hero-content container">
-          <p className="brow-about-script">{site.about.hero.kicker}</p>
-          <a href={site.hero.ctaPrimary.href} className="btn brow-cta" target="_blank">
-            {site.about.hero.cta.label}
-          </a>
-        </div>
-      </div>
+    <section id="about" className="psy-about section">
+      <div className="container about-wrap">
+        
 
-      {/* Blocco about + media */}
-      <div className="container brow-about-grid">
-        <div className="brow-about-text">
-          <h3 className="brow-handwrite">{site.about.title}</h3>
-          <p className="brow-copy">{site.about.p1}</p>
-          <p className="brow-copy">{site.about.p2}</p>
-          <a href={site.hero.ctaPrimary.href} className="btn brow-btn" target="_blank">
-            {site.about.cta.label}
-          </a>
+        <div className="about-grid">
+          
+          <div className="about-copy">
+          <div className="about-bar">
+          <h2 className="about-title">{site.about.heading}</h2>
+          
         </div>
+            <p className="lead">{site.about.kicker}</p>
+            <p>{site.about.p1}</p>
+            <p>{site.about.p2}</p>
+            <a className="btn ghost" href={rightCTA.href}>
+              {rightCTA.label}
+            </a>
+          </div>
 
-        <div className="brow-about-media">
-          <img
-            src={site.about.image}
-            alt="Team at work"
-            className="img brow-media-rect"
-          />
-          <div className="dots dots-svc-b" aria-hidden="true" />
+          
+
+          <div className="about-media">
+          <p>{site.about.p3}</p>
+          <div></div>
+            <img
+              src={site.about.images[0]}
+              alt={site.about.imagesAlt?.[0] ?? ""}
+              className="img"
+            />
+            
+            <img
+              src={site.about.images[1]}
+              alt={site.about.imagesAlt?.[1] ?? ""}
+              className="img bottom"
+            />
+            
+          </div>
         </div>
       </div>
     </section>

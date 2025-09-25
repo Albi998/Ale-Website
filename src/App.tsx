@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Form from "./components/Form";
 import Home from "./sections/Home";
 import About from "./sections/About";
 import Services from "./sections/Services";
@@ -14,6 +15,7 @@ export default function App() {
 
         <Services />
         <About />
+        <Form />
       </main>
       <Footer />
     </>
