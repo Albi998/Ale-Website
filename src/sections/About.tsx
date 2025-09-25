@@ -13,7 +13,7 @@ export default function AboutSection() {
             <div className="about-bar">
               <h2 className="about-title">{site.about.heading}</h2>
             </div>
-            <p className="lead">{site.about.kicker}</p>
+            {/* <p className="lead">{site.about.kicker}</p> */}
             <p>{site.about.p1}</p>
             <p>{site.about.p2}</p>
             <a className="btn ghost" href={cta.href}>{cta.label}</a>

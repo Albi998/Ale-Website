@@ -373,7 +373,7 @@ a.link:hover::before,
 .psy-about {
   background: var(--psy-green);
   color: #fff;
-  padding: 2rem;
+  padding:  6rem 2rem;
   border-radius: 16px;
 }
 .about-bar {
