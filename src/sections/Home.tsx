@@ -5,7 +5,7 @@ export default function HomeSection() {
     <section id="home" className="psy-hero">
       <div className="psy-hero-fw">
         <div className="psy-hero-img">
-          <img src={site.hero.image} alt={site.hero.imageAlt || ""}/>
+          <img src={site.hero.image} alt={site.hero.imageAlt || ""} fetchPriority="high"/>
         </div>
 
         <div className="psy-hero-side">
