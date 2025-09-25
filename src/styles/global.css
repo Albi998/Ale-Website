@@ -230,6 +230,12 @@ a.link:hover::before,
   -webkit-backdrop-filter: blur(14px) saturate(160%);
 }
 .psy-logo img {
+  background-color: var(--psy-cream);
+  padding: 0.2rem;
+  border-radius: 999px;
+}
+
+.psy-logo img {
   height: 34px;
   width: auto;
 }
@@ -794,46 +800,59 @@ a.link:hover::before,
 }
 
 /* BASE */
-.psy-menu{
-  position:absolute; left:0; right:0; top:calc(100% + 10px);
-  isolation:isolate;
+.psy-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 10px);
+  isolation: isolate;
   /* bg/blur SEMPRE presenti, così svaniscono con opacity */
-  background:#fff;
+  background: #fff;
   -webkit-backdrop-filter: blur(4px) saturate(160%);
   backdrop-filter: blur(4px) saturate(160%);
 
-  border-radius:14px;
-  padding:8px;
-  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  border-radius: 14px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  height:100vh;              /* copertura */
-  max-height:0;              /* chiuso */
-  overflow:hidden;
-  opacity:0;
-  transform:translateY(-6px);
-  pointer-events:none;
-  visibility:hidden;
+  height: 100vh; /* copertura */
+  max-height: 0; /* chiuso */
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+  visibility: hidden;
 
   transition:
-    opacity .22s ease,
-    transform .22s ease,
-    max-height .22s ease,
-    visibility 0s linear .22s;   /* diventa hidden SOLO a fine fade */
+    opacity 0.22s ease,
+    transform 0.22s ease,
+    max-height 0.22s ease,
+    visibility 0s linear 0.22s; /* diventa hidden SOLO a fine fade */
   will-change: opacity, transform, max-height;
 }
 
-.psy-menu a{ display:block; padding:10px 12px; border-radius:10px; }
-.psy-menu a:hover{ background:rgba(0,0,0,.05); text-decoration:none; }
+.psy-menu a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+.psy-menu a:hover {
+  background: rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+}
 
 /* OPEN */
-.psy-nav-shell.open .psy-menu{
-  opacity:1;
-  transform:translateY(0);
-  max-height:100vh;           /* aperto */
-  pointer-events:auto;
-  visibility:visible;         /* subito visibile in open */
+.psy-nav-shell.open .psy-menu {
+  opacity: 1;
+  transform: translateY(0);
+  /* max-height:100vh;           aperto */
+  pointer-events: auto;
+  visibility: visible; /* subito visibile in open */
   transition:
-    opacity .22s ease,
-    transform .22s ease,
-    max-height .22s ease;     /* senza delay su visibility */
+    opacity 0.22s ease,
+    transform 0.22s ease,
+    max-height 0.22s ease; /* senza delay su visibility */
 }
