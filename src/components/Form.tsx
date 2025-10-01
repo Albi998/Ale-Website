@@ -13,8 +13,8 @@ export default function Form() {
         {/* Colonna destra: FormSubmit */}
         <form
           className="psy-form"
-          // action="https://formsubmit.co/alessandra.scarsi.psi@gmail.com"
-          action="https://formsubmit.co/albertoscarsi9@gmail.com"
+          action="https://formsubmit.co/alessandra.scarsi.psi@gmail.com"
+          // action="https://formsubmit.co/albertoscarsi9@gmail.com"
           method="POST"
           noValidate
         >
