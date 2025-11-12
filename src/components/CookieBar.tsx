@@ -49,13 +49,13 @@ export default function CookieBar({
 
         {!prefs ? (
           <div className="cookiebar__actions" id="cookiebar-actions">
-            <button className="btn-cookie ghost" id="cb-reject">
+            <button className="btn-cookie ghost" id="cb-reject" onClick={rejectAll}>
               Rifiuta
             </button>
             {/* <button className="btn-cookie" id="cb-prefs">
               Preferenze
             </button> */}
-            <button className="btn-cookie primary" id="cb-accept">
+            <button className="btn-cookie primary" id="cb-accept" onClick={acceptAll}>
               Accetto
             </button>
           </div>
