@@ -60,14 +60,14 @@ body {
   color: var(--text);
   background: var(--bg);
   font-family:
-    "Montserrat",
+    "Poppins",
     system-ui,
     -apple-system,
     "Segoe UI",
     Roboto,
     Arial,
     sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 h1,
 h2,
@@ -373,7 +373,7 @@ a.link:hover::before,
 .psy-about {
   background: var(--psy-green);
   color: #fff;
-  padding:  6rem 2rem;
+  padding: 6rem 2rem;
   border-radius: 16px;
 }
 .about-bar {
@@ -855,4 +855,81 @@ a.link:hover::before,
     opacity 0.22s ease,
     transform 0.22s ease,
     max-height 0.22s ease; /* senza delay su visibility */
+}
+
+.cookiebar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem 0;
+}
+.cookiebar.top {
+  top: 0;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+.cookiebar.bottom {
+  bottom: 0;
+}
+.cookiebar__row {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.cookiebar__copy a {
+  color: inherit;
+  text-decoration: underline;
+}
+.cookiebar__actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.cookiebar__prefs {
+  display: grid;
+  gap: 8px;
+  align-items: start;
+}
+.btn-cookie {
+  padding: 8px 12px;
+  border-radius: 900px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.btn-cookie.primary {
+  background: var(--primary);
+  color: #fff;
+  transition: 0.2s ease;
+  border: 1px solid var(--primary);
+}
+.btn-cookie.primary:hover {
+  background: transparent;
+  color: var(--primary);
+}
+.btn-cookie.ghost {
+  background: transparent;
+  color: var(--terracotta);
+  border-color: color-mix(in srgb, var(--terracotta) 35%, transparent);
+}
+.check.small {
+  font-size: 0.9rem;
+}
+.check.small .control {
+  width: 18px;
+  height: 18px;
+}
+@media (max-width: 640px) {
+  .cookiebar__row {
+    grid-template-columns: 1fr;
+  }
+  .cookiebar__actions {
+    justify-content: start;
+  }
 }

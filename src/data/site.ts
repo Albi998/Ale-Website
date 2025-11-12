@@ -101,10 +101,10 @@ export const site = {
   },
   footer: {
     contactTitle: "Contattami",
-    map: { lat: 45.957299, lng: 12.664413, zoom: 16 },
+    map: { lat: 45.958359, lng: 12.662803, zoom: 16 },
     
     contacts: [
-      { icon: "map",     label: "Via Fratelli Bandiera, 40 — Pordenone (PN)", href: "https://maps.google.com/?q=Via+Fratelli+Bandiera+40+Pordenone" },
+      { icon: "map",     label: "Viale Cossetti, 18 — Pordenone (PN)", href: "https://maps.google.com/?q=Via+Fratelli+Bandiera+40+Pordenone" },
       { icon: "website", label: "Profilo Guida Psicologi", href: "https://www.guidapsicologi.it/studio/dottssa-alessandra-scarsi" },
       { icon: "mail",    label: "alessandra.scarsi.psi@gmail.com", href: "mailto:alessandra.scarsi.psi@gmail.com" },
       { icon: "phone",   label: "+39 379 139 3290", href: "https://wa.me/+393791393290" },
